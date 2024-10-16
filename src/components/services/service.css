@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'avenir';
+    src: url('./assets/fonts/AvenirLTStd-Book-1.woff2') format('truetype');
+    /* You can add more font formats here (e.g., woff, woff2) for better browser compatibility */
+}
+
+@font-face {
+    font-family: 'avenirBlack';
+    src: url('./assets/fonts/Avenir-Black-1.woff2') format('truetype');
+    /* You can add more font formats here (e.g., woff, woff2) for better browser compatibility */
+}
+
+/* .ant-collapse>.ant-collapse-item,
+.ant-collapse-content {
+    font-family: 'avenir';
+
+}
+
+b {
+    font-family: 'avenirBlack';
+}
+
+.ant-collapse-expand-icon {
+    display: none !important;
+    justify-content: center;
+}
+
+.ant-collapse-content-box {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.ant-collapse-header {
+    display: inline-block !important;
+    margin: 10px 0;
+    padding: 0 !important;
+}
+
+.ant-collapse-header-text {
+    font-size: 20px;
+}
+
+.ant-collapse-header-text::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background-color: #3d3d3d;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.ant-collapse-header-text:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+} */
+
+@media (max-width:780px) {
+    .ant-collapse-content-box {
+        width: 100%;
+    }
+
+    .ant-collapse-header {
+        margin: 8px !important;
+    }
+}
+
+@media (max-width:640px) {
+    .ant-collapse-header-text {
+        font-size: 16px;
+    }
+
+    .ant-collapse-content-box {
+        font-size: 15px;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .ant-collapse-header-text {
+        font-size: 16px;
+    }
+}

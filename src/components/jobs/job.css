@@ -1,0 +1,4 @@
+.text-left {
+    list-style-type: disc; /* Ensures bullets are displayed */
+    margin-left: 20px; /* Adds some space for the bullets */
+}

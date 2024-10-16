@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'avenir';
+    src: url('./assets/fonts/AvenirLTStd-Book-1.woff2') format('truetype');
+    /* You can add more font formats here (e.g., woff, woff2) for better browser compatibility */
+}
+
+@font-face {
+    font-family: 'avenirBlack';
+    src: url('./assets/fonts/Avenir-Black-1.woff2') format('truetype');
+    /* You can add more font formats here (e.g., woff, woff2) for better browser compatibility */
+}
+
+.changeHov path{
+    fill: #3d3d3d;
+}
